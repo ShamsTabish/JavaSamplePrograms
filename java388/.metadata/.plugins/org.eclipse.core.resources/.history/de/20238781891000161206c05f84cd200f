@@ -1,0 +1,11 @@
+package firstSession;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		int integer25=25;
+		float float45dot5=45.5;
+
+	}
+
+}

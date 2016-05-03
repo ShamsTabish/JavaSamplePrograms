@@ -1,0 +1,22 @@
+package firstSession;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		int integerNumber=25;
+		float floatNumber=45.5f;
+		
+		//Explicit Type Cast
+		integerNumber=(int)floatNumber;
+				
+		
+		//Implicit Type Cast
+		floatNumber=integerNumber;		
+		
+		System.out.println("FloatNumber is"+floatNumber);
+		System.out.println("Integer Number is "+integerNumber);
+		
+
+	}
+
+}

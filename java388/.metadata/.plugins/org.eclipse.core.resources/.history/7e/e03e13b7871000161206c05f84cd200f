@@ -1,0 +1,11 @@
+package firstSession;
+
+public class VariableExample {
+	public static void main(String[] args) {
+		int number1;
+		number1=34;
+		System.out.println("Number1 is "+number1);
+		
+	}
+
+}
