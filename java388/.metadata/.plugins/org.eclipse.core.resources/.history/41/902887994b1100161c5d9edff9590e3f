@@ -1,0 +1,10 @@
+package secondSession;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		float value=1.0f;
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package secondSession;
+
+public class WhileExample {
+
+	public static void main(String[] args) {
+		float value = 1.0f;
+
+		while (value < 20.1) {
+			System.out.println("Value is " + value);
+			value += 0.1;// value=value+0.5
+		}
+
+	}
+
+}

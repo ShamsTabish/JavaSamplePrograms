@@ -1,0 +1,20 @@
+package secondSession;
+
+public class IfStatementDemo {
+
+	public static void main(String[] args) {
+		int marks=15;
+		//boolean pass=marks >=40; 
+		if(marks<40){
+			System.out.println("Unfortunately the student failed... :(");
+			
+		}else if(marks>60)
+		{
+			System.out.println("Congratulations .. You scored first class..");
+		}
+		
+		System.out.println("The calculation Completed!");
+		
+	}
+
+}

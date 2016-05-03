@@ -1,0 +1,16 @@
+package secondSession;
+
+public class IfStatementDemo {
+
+	public static void main(String[] args) {
+		int marks=45;
+		boolean pass=marks >=40; 
+		if(pass){
+			System.out.println("Student has passed the exam");
+		}
+		
+		System.out.println("The calculation Completed!");
+		
+	}
+
+}
