@@ -1,0 +1,14 @@
+package fifthSession.inheritance;
+class Mathematics{
+	int add(int no1, int no2){
+		return no1+no2;
+	}
+}
+public class OverLoadingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

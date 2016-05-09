@@ -1,0 +1,15 @@
+package fifthSession;
+
+public class AClassForBeingAccessed {
+	private AClassForBeingAccessed(){
+	
+	}
+	public AClassForBeingAccessed createObject(){
+		return new AClassForBeingAccessed();
+	}
+	
+	public String somePublicField="Public";
+	private String somePrivateField="Private";
+	
+	
+}

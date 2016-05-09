@@ -1,0 +1,8 @@
+package fifthSession;
+
+public class NewClassToAccessTheField {
+	public void accessSomeMethodsAndFileds(){
+		AClassForBeingAccessed ex=new AClassForBeingAccessed();
+		String field=ex.somePublicField;
+	}
+}

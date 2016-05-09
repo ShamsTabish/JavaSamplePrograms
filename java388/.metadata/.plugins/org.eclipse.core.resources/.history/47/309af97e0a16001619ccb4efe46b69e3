@@ -1,0 +1,33 @@
+package fifthSession.inheritance.equalsExample;
+
+class Employee{
+	int empId;
+	public Employee(int id){
+		empId=id;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		Employee emp=(Employee)obj;
+		if(empId==emp.empId)
+		return true;
+		else
+			return flase;
+	}
+}
+
+public class EqualsAndHashCode {
+
+	public static void main(String[] args) {
+		Employee empX=new Employee(1);
+		Employee empY=new Employee(2);
+		boolean areSame=empX.equals(empY);
+		if(areSame){
+			System.out.println("They are same");
+		}else{
+			System.out.println("Not same");
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package fifthSession;
+
+public class NewClassToAccessTheField {
+	public void accessSomeMethodsAndFileds(){
+		AClassForBeingAccessed classObjectForAccess=AClassForBeingAccessed.createObject();
+		String field=classObjectForAccess.somePublicField;
+		//String field2=classObjectForAccess.somePrivateField;  //Not accessible
+		
+		
+	}
+}

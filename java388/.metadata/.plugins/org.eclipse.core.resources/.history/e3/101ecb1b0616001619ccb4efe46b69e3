@@ -1,0 +1,39 @@
+package fifthSession.inheritance;
+
+class Car{
+	
+	public void autoDrive(){
+		System.out.println("Auto drive mode");
+	}
+}
+
+class XUVCar extends Car{
+	public void printXuvVersion(){
+		System.out.println("XUV version 0023");
+	}
+}
+
+class LuxuryCar extends Car{
+	public void luxuryDrive(){
+		System.out.println("Luxurious");
+	}
+}
+
+
+public class InheritanceExample {
+
+	public static void main(String[] args) {
+		Car car=new Car();
+		car.autoDrive();
+		
+		
+		XUVCar xuv=new XUVCar();
+		xuv.autoDrive();//parent class method
+		xuv.printXuvVersion();
+		
+		
+		Car xuvCar=new LuxuryCar();
+		xuvCar.autoDrive();
+	}
+
+}

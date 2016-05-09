@@ -1,0 +1,29 @@
+package fifthSession.inheritance;
+
+class Car{
+	String color;
+	public void autoDrive(){
+		System.out.println("Auto drive mode");
+	}
+}
+
+class XUVCar extends Car{
+	public void printXuvVersion(){
+		System.out.println("XUV version 0023");
+	}
+}
+
+
+
+public class InheritanceExample {
+
+	public static void main(String[] args) {
+		Car car=new Car();
+		car.autoDrive();
+		
+		XUVCar xuv=new XUVCar();
+		xuv.autoDrive();//parent class method
+
+	}
+
+}

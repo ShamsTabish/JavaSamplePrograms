@@ -1,0 +1,16 @@
+package fifthSession.inheritance;
+class Mathematics{
+	int add(int no1, int no2){
+		return no1+no2;
+	}
+}
+public class OverLoadingExample {
+
+	public static void main(String[] args) {
+		Mathematics maths=new Mathematics();
+		int result =maths.add(2,4);
+		System.out.println("The Result is "+result);
+
+	}
+
+}

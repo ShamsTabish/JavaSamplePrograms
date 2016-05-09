@@ -1,0 +1,30 @@
+package thirdSession;
+
+public class StaticExample {
+	public static void main(String[] args) {
+		MyCar bmw=new MyCar();
+		MyCar audi=new MyCar();
+				
+		bmw.setColor("Red");
+		audi.setColor("Blue");
+		
+		System.out.println("BMW Color: "+bmw.getColor());
+		System.out.println("Audi Color: "+audi.getColor());
+		
+	}
+
+}
+
+
+class MyCar{
+	static String inventor;
+	String color;
+
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+}

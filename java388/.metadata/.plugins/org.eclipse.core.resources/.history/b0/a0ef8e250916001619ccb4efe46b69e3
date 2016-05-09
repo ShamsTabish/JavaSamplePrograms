@@ -1,0 +1,24 @@
+package fifthSession.inheritance.equalsExample;
+
+class Employee{
+	int empId;
+	public Employee(int id){
+		empId=id;
+	}
+	
+}
+
+public class EqualsAndHashCode {
+
+	public static void main(String[] args) {
+		Employee empX=new Employee(1);
+		Employee empY=new Employee(1);
+		
+		if(empX==empY){
+			
+		}
+		
+
+	}
+
+}

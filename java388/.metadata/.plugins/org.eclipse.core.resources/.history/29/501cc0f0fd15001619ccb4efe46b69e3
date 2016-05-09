@@ -1,0 +1,7 @@
+package fifthSession.utility;
+
+public class MathUtility {
+	public float getPIvalue(){
+		return 22/7;
+	}
+}

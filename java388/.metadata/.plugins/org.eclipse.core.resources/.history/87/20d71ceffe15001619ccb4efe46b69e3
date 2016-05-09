@@ -1,0 +1,21 @@
+package fifthSession;
+
+import fifthSession.utility.MathUtility;
+import firstSession.VariableExample;
+
+//or
+//import fifthSession.utility.*;
+
+
+public class PackageExample {
+
+	public static void main(String[] args) {
+		//fifthSession.utility.MathUtility math=new fifthSession.utility.MathUtility();
+		MathUtility math=new MathUtility();
+		float PI=MathUtility.PI;
+		float pi=math.getPIvalue();
+		
+		VariableExample.main(args);
+	}
+
+}

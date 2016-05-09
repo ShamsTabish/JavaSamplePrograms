@@ -1,2 +1,5 @@
 1462209426872	Rename local variable 'integer25'
 1462209446577	Rename local variable 'float45dot5'
+1462468509580	Rename field 'inventor'
+1462468516484	Rename field 'inventorOfCar'
+1462554135409	Rename local variable 'stringBuilder'

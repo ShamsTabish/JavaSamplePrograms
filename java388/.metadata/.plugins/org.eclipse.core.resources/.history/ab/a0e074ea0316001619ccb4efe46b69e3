@@ -1,0 +1,17 @@
+package fifthSession.inheritance;
+
+class Car{
+	String color;
+	public void autoDrive(){
+		System.out.println("Auto drive mode");
+	}
+}
+
+public class InheritanceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

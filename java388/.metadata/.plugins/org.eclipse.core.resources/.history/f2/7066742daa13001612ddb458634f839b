@@ -1,0 +1,24 @@
+package thirdSession;
+
+import java.util.Scanner;
+
+public class StringImmutability {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		
+		String name="Keith";   
+			   name="K";
+	    String lastName="K";
+	    name=scanner.nextLine();
+	    
+	    
+	    if(name==lastName){
+	    	
+	    }
+	    
+	    
+	    
+	    
+		
+	}
+}

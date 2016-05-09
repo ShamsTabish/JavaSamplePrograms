@@ -1,0 +1,10 @@
+package thirdSession;
+
+public class StringImmutability {
+	public static void main(String[] args) {
+		String name="Keith";   
+			   name="K";
+	    String lastName="K";
+		
+	}
+}
