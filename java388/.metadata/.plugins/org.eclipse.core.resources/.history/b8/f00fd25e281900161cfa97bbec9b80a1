@@ -1,0 +1,27 @@
+package eighthSession;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class IteratorExample {
+
+	public static void main(String[] args) {
+		List<String> list=new ArrayList<String>();
+		list.add("Pankaj");
+		list.add("Avinash");
+		list.add("Jyoti");
+		list.add("Sai");
+		list.add("Satish");
+
+		
+		list.add("Pankaj");
+		list.add("Avinash K");
+		list.add("JyotI");
+		list.add("Sai S");
+		list.add("Satish C");
+		
+		Iterator iterator=list.iterator();
+
+	}
+
+}

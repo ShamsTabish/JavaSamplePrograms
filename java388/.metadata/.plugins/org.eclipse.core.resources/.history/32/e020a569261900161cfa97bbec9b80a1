@@ -1,0 +1,18 @@
+package eighthSession;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapExample {
+	public static void main(String[] args) {
+		Map<Integer,String> map=new HashMap<Integer,String>();
+		map.put(1, "Pankaj");
+		map.put(2,"Avinash");
+		map.put(3,"Jyoti");
+		map.put(4,"Sai");
+		map.put(5,"Soma");
+		map.put(6,"Satish..");
+		
+		System.out.println("Student with rollNo 7 is "+map.get(7));
+	}
+}

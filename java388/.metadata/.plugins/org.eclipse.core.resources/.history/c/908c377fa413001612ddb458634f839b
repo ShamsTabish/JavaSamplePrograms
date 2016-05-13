@@ -1,7 +1,0 @@
-package thirdSession;
-
-public class TwoDimensionalArrays {
-	public static void main(String[] args) {
-		String[][] timeTable=new String[3][3];
-	}
-}

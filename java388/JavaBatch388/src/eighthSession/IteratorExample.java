@@ -1,0 +1,41 @@
+package eighthSession;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class IteratorExample {
+
+	public static void main(String[] args) {
+		List<String> list=new ArrayList<String>();
+		list.add("Pankaj");
+		list.add("Avinash");
+		list.add("Jyoti");
+		list.add("Sai");
+		list.add("Satish");
+
+		
+		list.add("Pankaj");
+		list.add("Avinash K");
+		list.add("JyotI");
+		list.add("Sai S");
+		list.add("Satish C");
+		
+		Iterator <String>iterator=list.iterator();
+		while(iterator.hasNext()){
+			String name=iterator.next();
+			if(name.equals("Pankaj")){
+				iterator.remove();
+				continue;
+			}
+			System.out.println("=> "+name);
+		}
+
+		System.out.println("-------------------------------------");
+		for (String string : list) {
+			System.out.println("-->"+string);
+		}
+		
+	}
+
+}

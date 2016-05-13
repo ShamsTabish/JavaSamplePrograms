@@ -1,0 +1,22 @@
+package eighthSession;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListExample {
+	public static void main(String[] args) {
+		List<String> set=new ArrayList<String>();
+		set.add("Pankaj");
+		set.add("Avinash");
+		set.add("Jyoti");
+		set.add("Sai");
+		set.add("Satish");
+
+		
+		set.add("Pankaj");
+		set.add("Avinash K");
+		set.add("JyotI");
+		set.add("Sai S");
+		set.add("Satish C");
+	}
+}

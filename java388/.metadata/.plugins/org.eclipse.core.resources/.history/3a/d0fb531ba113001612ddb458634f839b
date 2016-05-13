@@ -1,7 +1,0 @@
-package thirdSession;
-
-public class SingleDimensionArraysExample {
-	public static void main(String[] args) {
-
-	}
-}
