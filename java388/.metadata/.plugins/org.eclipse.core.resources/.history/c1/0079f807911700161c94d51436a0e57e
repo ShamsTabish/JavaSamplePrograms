@@ -1,0 +1,27 @@
+package sixthSession;
+
+public class InterfaceExample {
+	public static void main(String[] args) {
+		DigitalDevice digitalDevice=new HardDiskDevice();
+		digitalDevice.applyPowerSource();
+	}
+}
+
+
+interface DigitalDevice{
+	String deviceCategory="Digital Devices";
+	
+	void applyPowerSource();
+}
+
+class HardDiskDevice implements DigitalDevice{
+
+	@Override
+	public void applyPowerSource() {
+		
+		System.out.println("requires 12V for Operating the device");
+		
+	}
+	
+}
+

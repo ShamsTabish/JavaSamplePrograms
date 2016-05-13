@@ -1,0 +1,28 @@
+package sixthSession;
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		HundredNumberPrinter hundredNumberPrinter1=new HundredNumberPrinter(1);
+		Thread numberPrinterFor1 = new Thread(hundredNumberPrinter1);
+
+	}
+
+}
+
+class HundredNumberPrinter implements Runnable{
+	int number;
+	int initValue;
+	@Override
+	public void run() {
+		initValue=number;
+		for (int i = number; i <= number+100; i++) {
+			System.out.println(initValue+"The next value is "+i);
+		}
+		
+	}
+	public HundredNumberPrinter(int number) {
+		this.number=number;
+	}
+	
+}

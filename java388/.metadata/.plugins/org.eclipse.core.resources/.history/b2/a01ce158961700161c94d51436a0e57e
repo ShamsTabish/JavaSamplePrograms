@@ -1,0 +1,32 @@
+package sixthSession;
+
+public class ThreadClassExmple {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class TableCalculator extends Thread{
+	@Override
+	public void run() {
+		
+	}
+}
+
+
+
+
+
+
+
+/*
+ * Class and interface names should begin with a capital case letter
+ * variables and object, method, and package names begin with small case letters
+ * For all identifiers: They should be written in CamelCase
+ * 
+ */
+
+

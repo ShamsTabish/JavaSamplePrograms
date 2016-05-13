@@ -1,0 +1,30 @@
+package seventhSession;
+
+public class CustomExceptionExample {
+	public static void main(String[] args) {
+
+	}
+}
+
+class BankATM {
+	public void withdraw(int amount){
+		Account account=new Account(500);
+		float balance=account.withdraw(amount);
+		System.out.println("Amount "+amount+" was deducted from your account "
+				+ "\n Your account balance is "+balance);
+	}
+}
+
+class Account {
+	float balance;
+
+	public Account(float balance) {
+		this.balance = balance;
+	}
+
+	public float withdraw(float amout) {
+		balance -= amout;
+		return balance;
+	}
+
+}

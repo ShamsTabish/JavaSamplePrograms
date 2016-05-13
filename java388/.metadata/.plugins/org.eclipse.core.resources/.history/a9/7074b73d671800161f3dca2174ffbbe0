@@ -1,0 +1,23 @@
+package seventhSession;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class FileHandling {
+
+	public static void main(String[] args) {
+		File currentFolder=new File("./");
+		System.out.println("Folder name "+currentFolder.getAbsolutePath());
+		String []listOfFiles=currentFolder.list();
+		
+		for (String fileName : listOfFiles) {
+			System.out.println(fileName);
+		}
+		
+		//////////////////////////////////////////
+		FileWriter writer= new FileWriter("myFile.txt");
+		
+		
+	}
+
+}

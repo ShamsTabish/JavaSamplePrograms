@@ -1,0 +1,14 @@
+package seventhSession;
+
+public class ThrowsExample {
+
+}
+
+class MyAPIForBlueRayDisk{
+	public String getContents(){
+		int noOfSectors=0;
+		int dataSize=40;
+		int block=dataSize/noOfSectors;
+		return "Contents of File";
+	}
+}

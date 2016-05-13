@@ -1,0 +1,34 @@
+package seventhSession;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileHandling {
+
+	public static void main(String[] args) {
+		File currentFolder=new File("./");
+		System.out.println("Folder name "+currentFolder.getAbsolutePath());
+		String []listOfFiles=currentFolder.list();
+		
+		for (String fileName : listOfFiles) {
+			System.out.println(fileName);
+		}
+		
+		//////////////////////////////////////////
+		try {
+			FileWriter writer= new FileWriter("myFile.txt");
+			BufferedWriter fileWriter=new BufferedWriter(writer);
+			fileWriter.write("Hello this is my file, I genrated this from Java code.. \n Hurray...");
+			writer.close();
+			fileWriter.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

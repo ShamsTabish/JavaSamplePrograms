@@ -1,0 +1,11 @@
+package sixthSession;
+
+public class InterfaceExample {
+	public static void main(String[] args) {
+		
+	}
+}
+
+interface DigitalDevice{
+	
+}

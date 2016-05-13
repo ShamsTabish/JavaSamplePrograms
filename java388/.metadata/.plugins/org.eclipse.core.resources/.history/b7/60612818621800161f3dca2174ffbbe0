@@ -1,0 +1,25 @@
+package seventhSession;
+
+import java.io.IOException;
+
+public class ThrowKeywordExample {
+	public static void main(String[] args) {
+		APIForBuetooth api=new APIForBuetooth();
+		String name=api.getDeviceName("208789767AC2");
+	}
+
+}
+
+class APIForBuetooth {
+	public String getDeviceName(String deviceId) throws IOException {
+		String name = "";
+		boolean isBlutoothOn = true;
+
+		// Chack for bluetooth status
+		isBlutoothOn = false;
+		if (!isBlutoothOn)
+			throw new IOException();
+
+		return "";
+	}
+}

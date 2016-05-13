@@ -1,0 +1,12 @@
+package sixthSession;
+
+public class StringIterator {
+
+	public static void main(String[] args) {
+		String institute="AcadGild, Bagalore";
+		for (int i = 0; i < institute.length(); i++) {
+			System.out.print(" "+institute.charAt(i));
+		}
+	}
+
+}

@@ -1,0 +1,45 @@
+package seventhSession;
+
+public class CustomExceptionExample {
+	public static void main(String[] args) {
+		BankATM atm=new BankATM();
+		atm.withdraw(600);
+	}
+}
+
+class BankATM {
+	public void withdraw(int amount){
+		Account account=new Account(500);
+		float balance=account.withdraw(amount);
+		System.out.println("Amount "+amount+" was deducted from your account "
+				+ "\n Your account balance is "+balance);
+	}
+}
+
+class Account {
+	float balance;
+
+	public Account(float balance) {
+		this.balance = balance;
+	}
+
+	public float withdraw(float amout) {
+		if(amout>balance)
+			throw new InsufficientBalanceException();
+		balance -= amout;
+		return balance;
+	}
+
+}
+class InsufficientBalanceException extends Exception{
+	String message="Insufficient Balance";
+	@Override
+	public String getMessage() {
+		return message;
+	}
+	
+	@Override
+	public String toString() {
+		return message;
+	}
+}

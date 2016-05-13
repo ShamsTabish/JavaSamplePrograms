@@ -1,0 +1,13 @@
+package sixthSession;
+
+public class InterfaceExample {
+	public static void main(String[] args) {
+		
+	}
+}
+
+interface DigitalDevice{
+	String deviceCategory="";
+	deviceCategory="";
+	public void applyPowerSource();
+}

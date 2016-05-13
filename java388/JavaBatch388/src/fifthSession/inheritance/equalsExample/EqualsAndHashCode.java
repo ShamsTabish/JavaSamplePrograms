@@ -1,5 +1,7 @@
 package fifthSession.inheritance.equalsExample;
 
+import java.util.HashMap;
+
 class Employee{
 	int empId;
 	public Employee(int id){
@@ -20,7 +22,7 @@ class Employee{
 	
 	@Override
 	public int hashCode() {
-		// TODO Auto-generated method stub
+		System.out.println("Hashcode was called with empId="+empId);
 		return empId; // Unique Code for an employee (Must be Integer)
 	}
 }
@@ -30,7 +32,6 @@ public class EqualsAndHashCode {
 	public static void main(String[] args) {
 		Employee empX=new Employee(1);
 		Employee empY=new Employee(45);
-		
 		
 		boolean areSame=empX.equals(empY);
 		if(areSame){

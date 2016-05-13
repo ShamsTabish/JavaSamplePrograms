@@ -1,0 +1,48 @@
+package sixthSession;
+
+public class ThreadClassExmple {
+
+	public static void main(String[] args) {
+		TableCalculator tableFor2=new TableCalculator(2);
+		TableCalculator tableFor3=new TableCalculator(3);
+		TableCalculator tableFor4=new TableCalculator(4);
+		TableCalculator tableFor5=new TableCalculator(5);
+		TableCalculator tableFor6=new TableCalculator(6);
+		tableFor2.start();
+
+	}
+
+}
+
+class TableCalculator extends Thread{
+	int number;
+	int tableFor;
+	@Override
+	public void run() {
+		number=tableFor;
+		for(int i=1;i<=10; i++){
+			
+			System.out.println("Table value for "+i+" is "+number);
+			number+=tableFor;
+		}
+	}
+	public TableCalculator(int tableFor) {
+		super();
+		this.tableFor = tableFor;
+	}	
+}
+
+
+
+
+
+
+
+/*
+ * Class and interface names should begin with a capital case letter
+ * variables and object, method, and package names begin with small case letters
+ * For all identifiers: They should be written in CamelCase
+ * 
+ */
+
+

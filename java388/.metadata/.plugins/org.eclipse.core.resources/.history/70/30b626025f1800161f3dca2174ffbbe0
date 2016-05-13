@@ -1,0 +1,11 @@
+package seventhSession;
+
+public class ThrowsExample {
+
+}
+
+class MyAPIForBlueRayDisk{
+	public String getContents(){
+		return "Contents of File";
+	}
+}

@@ -1,0 +1,30 @@
+package seventhSession;
+
+public class ExceptionHandlingExmple {
+	public static void main(String[] args) {
+		int a = 23;
+		int b = 10;
+		int result = 0;
+		try {
+			int[] array = { 1, 2 };
+			System.out.println(array[1]);
+			result = a / b;
+			System.out.println("Completed division..");
+
+		} catch (ArithmeticException exception) {
+			b = 1;
+			result = a / b;
+			System.out.println("Arithmetic Exception has occured " + exception.getMessage());
+		} catch (Exception ex) {
+			System.out.println("Some exception has happened in program.." + ex);
+		}
+		
+		finally{
+			System.out.println("Part Of Finally Block. (A must Excecute block).");
+		}
+		
+		System.out.println("The result is " + result);
+
+
+	}
+}

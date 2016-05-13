@@ -1,0 +1,7 @@
+package seventhSession;
+
+public class ExceptionHandlingExmple {
+	public static void main(String[] args) {
+
+	}
+}

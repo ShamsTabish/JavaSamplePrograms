@@ -1,0 +1,19 @@
+package sixthSession;
+
+public class InterfaceExample {
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+interface DigitalDevice{
+	String deviceCategory="";
+	
+	public void applyPowerSource();
+}
+
+class HardDiskDevice implements DigitalDevice{
+	
+}
+

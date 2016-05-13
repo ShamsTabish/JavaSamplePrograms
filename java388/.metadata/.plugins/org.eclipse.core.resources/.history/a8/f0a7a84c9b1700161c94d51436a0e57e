@@ -1,0 +1,58 @@
+package sixthSession;
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		HundredNumberPrinter hundredNumberPrinter1 = new HundredNumberPrinter(1);
+		Thread numberPrinterFor1 = new Thread(hundredNumberPrinter1);
+		numberPrinterFor1.start();
+
+		HundredNumberPrinter hundredNumberPrinter1200 = new HundredNumberPrinter(1200);
+		Thread numberPrinterFor1200 = new Thread(hundredNumberPrinter1200);
+		numberPrinterFor1200.start();
+
+		HundredNumberPrinter hundredNumberPrinter9122 = new HundredNumberPrinter(9122);
+		Thread numberPrinterFor9122 = new Thread(hundredNumberPrinter9122);
+		numberPrinterFor9122.start();
+
+		HundredNumberPrinter hundredNumberPrinter4700 = new HundredNumberPrinter(4700);
+		Thread numberPrinterFor4700 = new Thread(hundredNumberPrinter4700);
+		numberPrinterFor4700.start();
+		int i = 0;
+		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+		
+		while (numberPrinterFor1.isAlive() || numberPrinterFor1200.isAlive() || numberPrinterFor4700.isAlive()
+				|| numberPrinterFor9122.isAlive()) {
+			System.out.println("===================>>>" + i++);
+			Thread.yield();
+		}
+		System.out.println("--------------------------End Of Program------------------------------------------");
+
+	}
+
+}
+
+class HundredNumberPrinter implements Runnable {
+	int number;
+	int initValue;
+
+	@Override
+	public void run() {
+		initValue = number;
+		for (int i = number; i < number + 100; i++) {
+			System.out.println(initValue + "The next value is " + i);
+		}
+
+	}
+
+	public HundredNumberPrinter(int number) {
+		this.number = number;
+	}
+
+}

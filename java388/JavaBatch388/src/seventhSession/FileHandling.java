@@ -1,0 +1,57 @@
+package seventhSession;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileHandling {
+
+	public static void main(String[] args) {
+		File currentFolder=new File("./");
+		System.out.println("Folder name "+currentFolder.getAbsolutePath());
+		String []listOfFiles=currentFolder.list();
+		
+		for (String fileName : listOfFiles) {
+			System.out.println(fileName);
+		}
+		
+		//////////////////////////////////////////Writing to a file
+		String fileName="myFile.txt";
+		try {
+			FileWriter writer= new FileWriter(fileName);
+			BufferedWriter fileWriter=new BufferedWriter(writer);
+			
+			fileWriter.append("Hello this is my file, I genrated this from Java code.. \n Hurray...");
+			fileWriter.append("Hello this is my file, I genrated this from Java code.. \n Hurray...");
+			
+			fileWriter.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//////////////////////////////////////////////////Reading From File
+		
+		try {
+			FileReader reader=new FileReader(fileName);
+			BufferedReader fileReader=new BufferedReader(reader);
+			char [] contentsOfFile=new char[2048];
+			fileReader.read(contentsOfFile);
+			System.out.println("File Contents are \n\n"+new String(contentsOfFile));
+			
+			reader.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

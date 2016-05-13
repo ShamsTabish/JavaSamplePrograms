@@ -1,0 +1,17 @@
+package seventhSession;
+
+import java.io.File;
+
+public class FileHandling {
+
+	public static void main(String[] args) {
+		File currentFolder=new File("./");
+		System.out.println("Folder name "+currentFolder.getName());
+		String []listOfFiles=currentFolder.list();
+		
+		for (String fileName : listOfFiles) {
+			System.out.println(fileName);
+		}
+	}
+
+}

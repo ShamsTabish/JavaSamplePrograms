@@ -1,0 +1,20 @@
+package sixthSession;
+
+public class RunnableExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class HundredNumberPrinter implements Runnable{
+
+	@Override
+	public void run() {
+		
+		
+	}
+	
+}

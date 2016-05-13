@@ -1,0 +1,9 @@
+package seventhSession;
+
+public class CustomExceptionExample {
+
+}
+
+class BankATM{
+	
+}

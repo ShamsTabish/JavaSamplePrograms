@@ -1,0 +1,22 @@
+package seventhSession;
+
+public class ThrowsExample {
+	public static void main(String[] args) {
+		MyAPIForBlueRayDisk api=new MyAPIForBlueRayDisk();
+				String result=api.getContents();
+		System.out.println(result);
+	}
+}
+
+class MyAPIForBlueRayDisk{
+	public String getContents(){
+		int noOfSectors=0;
+		int dataSize=40;
+		try{
+		int block=dataSize/noOfSectors;
+		}catch(Exception e){
+			
+		}
+		return "Contents of File";
+	}
+}

@@ -1,0 +1,27 @@
+package sixthSession;
+
+public class AbstractExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+}
+
+class Car extends Vehicle {
+
+	@Override
+	public void transport() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+abstract class Vehicle{
+	String wheels;
+	abstract public void transport();
+	
+}

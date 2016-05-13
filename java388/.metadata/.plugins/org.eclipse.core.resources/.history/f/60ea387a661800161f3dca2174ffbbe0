@@ -1,0 +1,11 @@
+package seventhSession;
+
+import java.io.FileWriter;
+
+public class FileHandling {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

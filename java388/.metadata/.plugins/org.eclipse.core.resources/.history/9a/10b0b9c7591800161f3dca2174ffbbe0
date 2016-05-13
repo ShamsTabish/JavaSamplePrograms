@@ -1,0 +1,16 @@
+package seventhSession;
+
+public class ExceptionHandlingExmple {
+	public static void main(String[] args) {
+		int a = 23;
+		int b = 0;
+		int result =10;
+		try {
+			result= a / b;
+		} catch (ArithmeticException exception) {
+			System.out.println("Arithmetic Exception has occured");
+		}
+		System.out.println("The result is " + result);
+
+	}
+}
