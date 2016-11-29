@@ -1,0 +1,10 @@
+package branching;
+
+public class ShortHandIf {
+	public static void main(String[] args) {
+		int age = 45;
+		String category=age<20?"Child ":"Young ";
+		
+		System.out.println("The Person is "+category);
+	}
+}

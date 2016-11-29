@@ -1,0 +1,16 @@
+
+public class OverridingDemo {
+	
+}
+
+class MyVehicle{
+	void drive(){
+		System.out.println("Driving the vehicle");
+	}
+}
+
+class MyCar extends MyVehicle{
+	void drive(){
+		System.out.println("Driving my Super Carr...");
+	}
+}

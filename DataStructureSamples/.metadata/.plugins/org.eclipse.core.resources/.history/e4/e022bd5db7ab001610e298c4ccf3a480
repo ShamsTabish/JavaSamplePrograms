@@ -1,0 +1,178 @@
+package quickSort;
+
+import java.security.NoSuchAlgorithmException;
+
+public class BinaryTree {
+	TreeNode root;
+
+	public BinaryTree(int root) {
+		super();
+		this.root = new TreeNode(root);
+	}
+
+	public void add(int element) {
+		if (root == null) {
+			root = new TreeNode(element);
+		} else
+			addElement(element, root);
+	}
+
+	private void addElement(int element, TreeNode node) {
+		if (node.getData() > element) {
+			if (node.hasLeft())
+				addElement(element, node.getLeftChild());
+			else
+				node.setLeftChild(new TreeNode(element));
+
+		} else if (node.hasRight())
+			addElement(element, node.getRightChild());
+		else
+			node.setRightChild(new TreeNode(element));
+	}
+
+	public void bfs(TreeNode node, Queue<TreeNode> queue) {
+		if (node != null) {
+			if (node.hasLeft())
+				queue.enQueue(node.getLeftChild());
+			if (node.hasRight())
+				queue.enQueue(node.getRightChild());
+			try {
+				TreeNode nextNode = queue.deQueue();
+
+			} catch (NoSuchAlgorithmException e) {
+			}
+			System.out.println(root.getData());
+		}
+	}
+
+	public static void main(String[] args) {
+		Queue<Integer> q = new Queue<Integer>();
+		q.enQueue(2);
+		q.enQueue(3);
+		q.enQueue(4);
+		q.enQueue(5);
+		q.enQueue(6);
+		q.enQueue(7);
+		System.out.println(q);
+
+		try {
+			while (true) {
+				System.out.println(q.deQueue());
+			}
+		} catch (NoSuchAlgorithmException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}
+
+class Queue<T> {
+	Element head, tail;
+
+	class Element {
+		T data;
+		Element next;
+
+		public Element(T data) {
+			this.data = data;
+		}
+
+		@Override
+		public String toString() {
+			if (next == null)
+				return " " + data;
+			else
+				return " " + data + ", " + next;
+		}
+	}
+
+	public void emptyQueue() {
+		new Queue<T>();
+	}
+
+	public void enQueue(T data) {
+		if (head == null) {
+			head = new Element(data);
+			tail = head;
+		} else {
+			tail.next = new Element(data);
+			tail = tail.next;
+		}
+	}
+
+	public T deQueue() throws NoSuchAlgorithmException {
+		T t;
+		if (head == null)
+			throw new NoSuchAlgorithmException();
+		else {
+			t = head.data;
+			head = head.next;
+		}
+		return t;
+	}
+
+	@Override
+	public String toString() {
+		if (head != null)
+			return "[" + head + "]";
+		else
+			return "[]";
+	}
+}
+
+class TreeNode {
+	private int data;
+
+	public TreeNode(int data) {
+		super();
+		this.data = data;
+	}
+
+	private TreeNode leftChild, rightChild;
+
+	public TreeNode(int data, TreeNode leftChild, TreeNode rightChild) {
+		super();
+		this.data = data;
+		this.leftChild = leftChild;
+		this.rightChild = rightChild;
+	}
+
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
+		this.data = data;
+	}
+
+	public TreeNode getLeftChild() {
+		return leftChild;
+	}
+
+	public void setLeftChild(TreeNode leftChild) {
+		this.leftChild = leftChild;
+	}
+
+	public TreeNode getRightChild() {
+		return rightChild;
+	}
+
+	public void setRightChild(TreeNode rightChild) {
+		this.rightChild = rightChild;
+	}
+
+	public boolean hasLeft() {
+		if (this.leftChild == null)
+			return false;
+		else
+			return true;
+	}
+
+	public boolean hasRight() {
+		if (this.rightChild == null)
+			return false;
+		else
+			return true;
+	}
+}

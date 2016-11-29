@@ -1,0 +1,12 @@
+
+public class ClassDemo {
+
+}
+
+class Car{
+	String color;
+	int numberOfDoors;
+	String engineType;
+	String modelNumber;
+	
+}

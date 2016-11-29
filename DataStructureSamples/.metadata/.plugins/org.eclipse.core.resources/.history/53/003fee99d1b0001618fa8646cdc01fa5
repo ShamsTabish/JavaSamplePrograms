@@ -1,0 +1,9 @@
+package looping;
+
+public class ForLoopDemo {
+	public static void main(String[] args) {
+		     //1       //2    // --
+		for (int x = 0; x < -5; x++)
+			System.out.println("X=" + x);
+	}
+}

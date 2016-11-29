@@ -1,0 +1,12 @@
+package fifthSession;
+
+public class AbstractClassDemo {
+	public static void main(String[] args) {
+
+	}
+}
+
+abstract class Vehicle{
+	abstract void move();
+	String engine;
+}

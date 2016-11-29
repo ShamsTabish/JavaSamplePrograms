@@ -1,0 +1,25 @@
+package looping;
+
+public class ForLoopDemo {
+	public static void main(String[] args) {
+		     //1       //2    // --
+		for (int x = 0; x < 1; x++)
+			System.out.println("X=" + x);
+		System.out.println("--End of Program--");
+		
+		for(){
+			System.out.println("--");
+		}
+		
+		
+	}
+	
+}
+
+
+/*
+1=>  x=0     x<1 -> true
+
+2=>  x=1     x<1 ->false
+
+*/

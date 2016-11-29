@@ -1,0 +1,13 @@
+package fifthSession;
+
+public class InterfaceDemo {
+	public static void main(String[] args) {
+
+	}
+}
+
+
+interface Animal{
+	abstract void eat();
+	void jumps();
+}

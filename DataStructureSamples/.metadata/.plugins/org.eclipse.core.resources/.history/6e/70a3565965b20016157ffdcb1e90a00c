@@ -1,0 +1,14 @@
+
+public class StaticVariableDemo {
+
+}
+
+class BankAccount{
+	float accountBalance;
+	float bankBalance;
+	
+	void deposit(float amount){
+		accountBalance+=amount;
+	}
+	
+}

@@ -1,0 +1,23 @@
+package branching;
+
+public class SwitchCaseDemo {
+	public static void main(String[] args) {
+		String today="Wednesday";
+		
+		
+		System.out.println("Today is "+today+" and I'll study ");
+		switch(today){
+		case "Monday":
+			System.out.print("Java");
+
+		case "Wednesday":
+			System.out.print("Android");
+
+		case "Thursday":
+			System.out.print("Big Data");
+
+		default:
+			System.out.print("----");
+		};
+	}
+}

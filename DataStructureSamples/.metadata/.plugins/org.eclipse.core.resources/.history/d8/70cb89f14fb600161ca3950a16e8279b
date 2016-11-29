@@ -1,0 +1,20 @@
+package fifthSession;
+
+public class InterfaceAndAbstractClasses {
+	public static void main(String[] args) {
+
+	}
+}
+
+interface MyVehicle{
+	void drive();
+}
+
+class FlyingCar implements MyVehicle{
+
+	@Override
+	public void drive() {
+		System.out.println("Driving on the road..");
+	}
+	
+}

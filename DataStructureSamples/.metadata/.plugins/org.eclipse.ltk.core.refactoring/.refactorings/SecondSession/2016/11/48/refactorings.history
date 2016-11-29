@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;percentage&apos; in &apos;branching.BranchingDemo.main(...)&apos; to &apos;percentageOfMarks&apos;&#x0A;- Original project: &apos;SecondSession&apos;&#x0A;- Original element: &apos;branching.BranchingDemo.main(String[]).percentage&apos;&#x0A;- Renamed element: &apos;percentage&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;percentage&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;branching{BranchingDemo.java[BranchingDemo~main~\[QString;@percentage!195!216!201!210!F!0!false" name="percentageOfMarks" references="true" stamp="1479830712426" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package myPackage; // Declaration of package
+
+public class packageDemo {
+	public void printDemo(){
+		System.out.println("hello this is MyPackage..");
+	}
+}

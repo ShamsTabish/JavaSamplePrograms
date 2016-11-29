@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+/Users/ssm2349/Documents/workspaceMars/JavaSamplePrograms/DataStructureSamples/.metadata/.plugins/org.eclipse.jdt.core
+2064801972.index
+2275530689.index
+1559804179.index
+2594611731.index

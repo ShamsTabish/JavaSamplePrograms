@@ -1,0 +1,23 @@
+package quickSort;
+
+public class QuickSort {
+	public static void main(String[] args) {
+		int []numbers={18,52,236,3,7,0,45,22,435,11,34,6};
+		
+	}
+	void quickSort(int []numbers){
+		int pivot=numbers.length/2;
+		if(numbers.length>1){
+			int i=0,j=numbers.length-1;
+			while(i<j){
+				if(numbers[i]>numbers[j])
+					
+			}
+		}
+	}
+	void swap(int array[],int a,int b){
+		int temp=array[a];
+		array[a]=array[b];
+		array[b]=temp;
+	}
+}

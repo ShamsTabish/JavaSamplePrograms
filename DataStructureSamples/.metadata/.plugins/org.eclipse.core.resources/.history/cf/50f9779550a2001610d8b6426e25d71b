@@ -1,0 +1,32 @@
+package quickSort;
+
+import java.util.NoSuchElementException;
+
+public class SLL {
+
+}
+
+class Node {
+	String data;
+	Node next, previous;
+
+	boolean hasNext() {
+		if (next != null)
+			return true;
+		else
+			return false;
+	}
+
+	Node next() {
+		if (next == null)
+			throw new NoSuchElementException();
+		return next;
+	}
+
+	Node previous() {
+		if (previous == null)
+			throw new NoSuchElementException();
+		else
+			return previous;
+	}
+}

@@ -1,0 +1,23 @@
+
+public class OverridingDemo {
+	public static void main(String[] args) {
+		MyCar petVicle=new MyCar();
+		petVicle.drive();
+		petVicle.
+	}
+}
+
+class MyVehicle{
+	void drive(){
+		System.out.println("Driving the vehicle");
+	}
+}
+
+class MyCar extends MyVehicle{
+	void drive(){
+		System.out.println("Driving my Super Carr...");
+	}
+	void driveInOldFashion(){
+		drive();
+	}
+}

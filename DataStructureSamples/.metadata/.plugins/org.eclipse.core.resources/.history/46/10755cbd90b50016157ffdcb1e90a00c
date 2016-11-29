@@ -1,0 +1,18 @@
+
+public class AccessSpecifierDemo {
+	public static void main(String[] args) {
+		Account account=new Account();
+		ATM atm=new ATM();
+		atm.withdraw(account);
+		System.out.println(account.balance);
+	}
+}
+
+class Account{
+	int balance=1000;
+}
+class ATM{
+	void withdraw(Account account){
+		account.balance=account.balance=400;
+	}
+}

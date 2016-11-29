@@ -1,0 +1,29 @@
+
+public class InheritanceAndCompositionDemo {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Vehicle{
+  	 Engine engine;//Vehicle is composed of Engine
+  	 Vehicle(String engineType){
+  		 engine=new Engine(engineType);
+  	 }
+}
+
+class Engine{
+	String type;
+	Engine(String type){
+		this.type=type;
+	}
+}
+
+
+class Truck extends Vehicle{// Inheritance,  Truck is a vehicle
+	Truck(String engineType) {
+		super(engineType);
+		
+	} 
+	
+}

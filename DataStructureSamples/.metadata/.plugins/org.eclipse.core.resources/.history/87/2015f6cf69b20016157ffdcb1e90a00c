@@ -1,0 +1,17 @@
+
+public class MethodDemo {
+	public static void main(String[] args) {
+		Methods methodDemo=new Methods();
+		methodDemo.print();
+		System.out.println(methodDemo.add(23, 45));
+	}
+}
+class Methods{
+	public void print(){
+		System.out.println("Hello");
+	}
+	
+	int add(int no1, int no2){
+		return no1+no2;
+	}
+}

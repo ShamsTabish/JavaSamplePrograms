@@ -1,0 +1,16 @@
+
+public class ClassDemo {
+
+}
+
+class Car{
+	String color;
+	int numberOfDoors;
+	String engineType;
+	String modelNumber;
+	
+	
+	void move(String destination){
+		System.out.println("Driving to "+destination);
+	}
+}

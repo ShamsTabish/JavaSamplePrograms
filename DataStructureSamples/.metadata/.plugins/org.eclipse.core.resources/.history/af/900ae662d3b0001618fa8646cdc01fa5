@@ -1,0 +1,19 @@
+package looping;
+
+public class WhileDemo {
+	public static void main(String[] args) {
+		int variable=0;
+		while(variable<10){
+			System.out.println("Value "+variable);
+			variable++;
+		}
+		System.out.println("--End Of Program--");
+		
+		
+		int value=30;
+		do{			
+			System.out.println("Val "+value);
+			value++;
+		}while(value<50);
+	}
+}

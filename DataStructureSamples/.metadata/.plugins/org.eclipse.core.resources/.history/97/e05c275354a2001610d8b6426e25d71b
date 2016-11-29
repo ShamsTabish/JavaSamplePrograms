@@ -1,0 +1,94 @@
+package quickSort;
+
+import java.util.NoSuchElementException;
+
+import javax.activity.InvalidActivityException;
+
+public class SLL {
+	Node head;
+
+	public String toString() {
+		return head.toString();
+	};
+
+	SLL(String headNode) {
+		head = new Node(headNode);
+	}
+
+	void insert(String data, int position) {
+
+	}
+	void printAll(){
+		if(head==null)
+			System.out.println("Empty List!!");
+		whil
+	}
+
+	int add(String data) throws InvalidActivityException {
+		int position = 0;
+		if (head == null)
+			throw new InvalidActivityException();
+		else {
+			Node pointer = head;
+			while (pointer.hasNext()) {
+				pointer = pointer.next();
+				position++;
+			}
+			pointer.setNext(new Node(data, pointer));
+		}
+		return position;
+	}
+
+	public static void main(String[] args) {
+		SLL sll = new SLL("S");
+		try {
+			sll.add("T");
+		} catch (InvalidActivityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(sll);
+	}
+}
+
+class Node {
+	private String data;
+	private Node next, previous;
+
+	public String toString() {
+		return "  {"  + " " + data + " " +next+ "}";
+	};
+
+	Node(String element, Node prvs) {
+		data = element;
+		previous = prvs;
+	}
+
+	Node(String element) {
+		data = element;
+	}
+
+	boolean hasNext() {
+		if (next != null)
+			return true;
+		else
+			return false;
+	}
+
+	Node next() {
+		if (next == null)
+			throw new NoSuchElementException();
+		return next;
+	}
+
+	void setNext(Node nxt) {
+		next = nxt;
+	}
+
+	Node previous() {
+		if (previous == null)
+			throw new NoSuchElementException();
+		else
+			return previous;
+	}
+}

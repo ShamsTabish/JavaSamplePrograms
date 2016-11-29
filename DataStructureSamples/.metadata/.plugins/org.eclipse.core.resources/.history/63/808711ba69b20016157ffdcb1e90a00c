@@ -1,0 +1,12 @@
+
+public class MethodDemo {
+	public static void main(String[] args) {
+		Methods methodDemo=new Methods();
+		methodDemo.print();
+	}
+}
+class Methods{
+	public void print(){
+		System.out.println("Hello");
+	}
+}

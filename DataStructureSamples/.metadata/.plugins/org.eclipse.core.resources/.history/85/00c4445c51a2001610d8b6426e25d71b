@@ -1,0 +1,56 @@
+package quickSort;
+
+import java.util.NoSuchElementException;
+
+import javax.activity.InvalidActivityException;
+
+public class SLL {
+	Node head;
+	enum data{TODAY,MONDAY};
+	SLL(String headNode) {
+		head = new Node(headNode);
+	}
+	void insert(String data, int position){
+		
+	}
+	int add(String data) throws InvalidActivityException{
+		if(head==null)
+			throw new InvalidActivityException();
+		else{
+			Node pointer=head;
+			while (pointer.hasNext())
+				pointer=pointer.next();
+		}
+		return 0;
+	}
+
+}
+
+class Node {
+	private String data;
+	private Node next, previous;
+
+	Node(String element) {
+		data = element;
+	}
+
+	boolean hasNext() {
+		if (next != null)
+			return true;
+		else
+			return false;
+	}
+
+	Node next() {
+		if (next == null)
+			throw new NoSuchElementException();
+		return next;
+	}
+
+	Node previous() {
+		if (previous == null)
+			throw new NoSuchElementException();
+		else
+			return previous;
+	}
+}

@@ -1,0 +1,42 @@
+
+public class InheritanceAndCompositionDemo {
+	public static void main(String[] args) {
+		Vehicle vehicle=new Vehicle("Highpower Engine");
+		System.out.println(vehicle.engine);
+		System.out.println("-----------------");
+		
+		Truck truck=new Truck("Powerful Engine");
+		truck.print();
+		System.out.println("truck's engine:"+truck.engine);
+		
+	}
+}
+
+class Vehicle{
+  	 String engine;//Vehicle is composed of Engine
+  	 Vehicle(String engineType){
+  		 engine=engineType;
+  	 }
+  	 Vehicle(){
+  		 System.out.println("Empty Vehicle");
+  	 }
+  	void drive(){
+ 		 System.out.println("Starting the engine, driving the Vehicle forward");
+ 	 }
+}
+
+
+class Truck extends Vehicle{// Inheritance,  Truck is a vehicle
+	Truck(String engineType) {
+		super(engineType);
+		
+	} 
+	void drive(){
+		 System.out.println("Driving Truck..");
+	 }
+	void print(){
+		super.drive();
+		System.out.println(engine);
+	}
+	
+}

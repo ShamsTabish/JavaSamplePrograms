@@ -1,0 +1,9 @@
+package branching;
+
+public class BranchingDemo {
+	public static void main(String[] args) {
+		boolean shouldPrint=false;
+		if(shouldPrint)
+		System.out.println("Hello World.");
+	}
+}

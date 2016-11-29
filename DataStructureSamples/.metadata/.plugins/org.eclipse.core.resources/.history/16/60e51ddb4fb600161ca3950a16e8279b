@@ -1,0 +1,15 @@
+package fifthSession;
+
+public class InterfaceAndAbstractClasses {
+	public static void main(String[] args) {
+
+	}
+}
+
+interface MyVehicle{
+	void drive();
+}
+
+class FlyingCar implements MyVehicle{
+	
+}

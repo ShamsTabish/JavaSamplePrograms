@@ -1,0 +1,48 @@
+package fifthSession;
+
+public class InterfaceAndAbstractClasses {
+	public static void main(String[] args) {
+		Flyable flyingObject;
+		flyingObject=new FlyingCar();
+		flyingObject.fly();
+	}
+}
+
+interface FuelUserVehicle{
+	void consumeFuel();
+}
+
+interface MyVehicle extends FuelUserVehicle {
+	void drive();
+	void consumeFuel();
+}
+
+interface Flyable extends FuelUserVehicle  {
+	void fly();
+	void consumeFuel();
+}
+
+class FlyingCar implements MyVehicle, Flyable {
+	public void consumeFuel(){
+		System.out.println("Hello");
+	}
+	@Override
+	public void drive() {
+		System.out.println("Driving on the road..");
+	}
+
+	@Override
+	public void fly() {
+		System.out.println("Flying the Car in the Sky");
+	}
+
+}
+
+class AeroPlane implements Flyable{
+
+	@Override
+	public void fly() {
+		System.out.println("Flying the AeroPlane");
+	}
+	
+}

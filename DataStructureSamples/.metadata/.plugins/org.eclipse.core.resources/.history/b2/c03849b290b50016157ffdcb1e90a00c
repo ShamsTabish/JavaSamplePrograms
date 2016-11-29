@@ -1,0 +1,15 @@
+
+public class AccessSpecifierDemo {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Account{
+	int balance=1000;
+}
+class ATM{
+	void withdraw(Account account){
+		account.balance=account.balance=400;
+	}
+}

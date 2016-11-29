@@ -1,0 +1,23 @@
+package branching;
+
+public class BranchingDemo {
+	public static void main(String[] args) {
+		boolean shouldPrint = false;
+		int value = 30;
+		if (false)
+			System.out.println("Hello World.");
+
+		float percentage = 30;
+
+		if (percentage > 40){
+			System.out.println("You cleared the exam!");
+		}
+		else {
+			System.out.println("Sorry you failed... :(");
+		}
+		
+		System.out.println("End Of Program..");
+		
+
+	}
+}

@@ -1,0 +1,25 @@
+
+public class OverridingDemo {
+	public static void main(String[] args) {
+		boolean isSuperCarAvailable=true;
+		MyVehicle petVicle;
+		if()
+		=new MyCar();
+		
+		petVicle.drive();
+		
+	}
+}
+
+class MyVehicle{
+	void drive(){
+		System.out.println("Driving the vehicle");
+	}
+}
+
+class MyCar extends MyVehicle{
+	void drive(){
+		System.out.println("Driving my Super Carr...");
+	}
+	
+}

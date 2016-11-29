@@ -1,0 +1,14 @@
+
+public class OverridingDemo {
+	
+}
+
+class MyVehicle{
+	void drive(){
+		
+	}
+}
+
+class MyCar extends MyVehicle{
+	
+}

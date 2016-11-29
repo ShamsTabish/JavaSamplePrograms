@@ -1,0 +1,28 @@
+package fifthSession;
+
+public class InterfaceDemo {
+	public static void main(String[] args) {
+		Animal animal=new Monkey();
+	}
+}
+
+
+interface Animal{
+	int age=20;
+	abstract void eat();
+	void jumps();
+}
+
+class Monkey implements Animal{
+
+	@Override
+	public void eat() {
+		System.out.println("Eating Mangoes");
+	}
+
+	@Override
+	public void jumps() {
+		System.out.println("Jumping on the trees");
+	}
+	
+}

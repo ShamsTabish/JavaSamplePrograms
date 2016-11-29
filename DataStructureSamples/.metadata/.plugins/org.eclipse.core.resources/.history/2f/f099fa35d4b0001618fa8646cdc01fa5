@@ -1,0 +1,12 @@
+package looping;
+
+public class BreakAndContinue {
+	public static void main(String[] args) {
+		int number=0;
+		while(true){
+			System.out.println("Number= "+number);
+			number++;
+		}
+		System.out.println("----------");
+	}
+}

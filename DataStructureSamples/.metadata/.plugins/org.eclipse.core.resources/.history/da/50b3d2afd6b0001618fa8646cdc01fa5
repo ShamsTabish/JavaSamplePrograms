@@ -1,0 +1,8 @@
+package branching;
+
+public class ShortHandIf {
+	public static void main(String[] args) {
+		int age = 45;
+		
+	}
+}

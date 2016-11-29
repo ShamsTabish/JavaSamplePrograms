@@ -1,0 +1,23 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class BufferedReaderDemo {
+	public static void main(String[] args) throws IOException {
+		InputStreamReader streamReader=new InputStreamReader(System.in);
+		BufferedReader inputReader=new BufferedReader(streamReader);
+		
+		System.out.println("Enter A Line of text ..");
+		String line=inputReader.readLine();
+		System.out.println("You Entered \n"+line);
+
+		//--------------------------
+		Scanner myInputScanner=new Scanner(System.in);
+		myInputScanner.nextFloat();
+		System.out.println("Enter A Line of text ..");
+		String nextLine=myInputScanner.nextLine();
+		System.out.println("You Entered \n"+nextLine);
+		
+	}
+}

@@ -1,0 +1,12 @@
+
+public class OverridingDemo {
+	
+}
+
+class Vehicle{
+	
+}
+
+class MyCar extends MyVehicle{
+	
+}

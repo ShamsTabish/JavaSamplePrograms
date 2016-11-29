@@ -1,0 +1,2078 @@
+!SESSION 2016-11-02 23:50:41.138 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY ccw.core 1 0 2016-11-02 23:50:58.812
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-02 23:50:59.222
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:02.582
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-02 23:51:05.424
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.410
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.411
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.512
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.513
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.670
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.671
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.937
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.938
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.999
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:09.999
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-02 23:51:10.000
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-03 00:13:01.429
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 00:13:03.976
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 00:13:05.627
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 00:13:07.293
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 00:13:08.811
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2016-11-03 03:42:52.020
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY ccw.core 1 0 2016-11-03 20:45:09.499
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 20:54:17.233
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key Experiment
+
+!ENTRY ccw.core 1 0 2016-11-03 20:54:40.469
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key Experiment
+
+!ENTRY ccw.core 1 0 2016-11-03 21:18:14.235
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:18:19.041
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:29:17.232
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:29:22.481
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:30:23.209
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:31:20.149
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:31:55.222
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:32:03.974
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:33:49.519
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:34:08.464
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:38:33.528
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:38:56.500
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:39:11.266
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:39:17.252
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:41:57.940
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:42:49.917
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:43:10.402
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:43:38.108
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:44:35.418
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:46:15.594
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:46:47.631
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:47:02.900
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:47:45.957
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:48:17.428
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:56:30.061
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:57:02.515
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:57:15.471
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:57:24.888
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:58:23.382
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:58:31.836
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:58:38.764
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:58:46.952
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:58:54.083
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-03 21:59:00.820
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-04 00:11:39.857
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-04 10:08:29.831
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key QuickSort
+
+!ENTRY ccw.core 1 0 2016-11-04 10:08:31.799
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MyStack
+
+!ENTRY ccw.core 1 0 2016-11-04 10:09:10.719
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MyStack
+
+!ENTRY ccw.core 1 0 2016-11-04 10:09:22.872
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MyStack
+
+!ENTRY ccw.core 1 0 2016-11-04 11:20:13.649
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:20:43.837
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:21:50.931
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:22:52.953
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:23:23.175
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:23:48.768
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+
+!ENTRY ccw.core 1 0 2016-11-04 11:24:52.742
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SLL
+!SESSION 2016-11-09 11:08:03.201 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-09 11:08:45.602
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:45.948
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:46.911
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:51.003
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 11:08:54.400
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.389
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.390
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.527
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.528
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.706
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.706
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.765
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.765
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.820
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.821
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-09 11:08:59.821
+!MESSAGE Loaded User Plugins
+!SESSION 2016-11-09 13:55:30.710 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-09 13:55:48.344
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-09 13:55:48.607
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-09 13:55:48.856
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-09 13:55:57.631
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-09 13:56:06.841
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.196
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.199
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.311
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.313
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.753
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:21.755
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:22.003
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:22.004
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:22.167
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:22.167
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-09 13:56:22.168
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-09 17:33:23.773
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-09 17:35:03.413
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-09 17:37:20.633
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-09 17:38:08.554
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-09 17:38:47.915
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+!SESSION 2016-11-15 17:23:15.845 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-15 17:23:28.783
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:29.258
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:30.001
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:33.709
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-15 17:23:38.160
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.297
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.298
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.341
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.342
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.494
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.495
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.563
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.563
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.617
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.617
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-15 17:23:43.617
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-16 10:14:02.495
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:14:35.193
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:14:59.332
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:15:14.508
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:21:34.863
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:25:44.361
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:26:27.815
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:27:02.941
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:27:25.993
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:27:55.314
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:28:36.870
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:29:29.995
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:34:24.170
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:36:24.671
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:43:43.853
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-16 10:44:17.654
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2016-11-16 12:16:05.863
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-11-17 11:02:52.508 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-17 11:04:22.748
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:23.013
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:23.765
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:27.086
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-17 11:04:31.274
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.112
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.113
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.139
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.139
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.295
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.295
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.373
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.373
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.418
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.419
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-17 11:04:36.419
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-17 11:07:33.173
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:08:30.402
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:09:13.471
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:10:21.248
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:11:02.585
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:11:10.536
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:11:13.083
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-17 11:19:45.509
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+!SESSION 2016-11-18 10:20:26.539 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-18 10:20:30.218
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:30.478
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:30.843
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:34.065
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-18 10:20:38.187
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.145
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.146
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.176
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.176
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.321
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.321
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.379
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.379
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.422
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.423
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-18 10:20:43.423
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-18 10:33:40.166
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-18 10:38:10.157
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-18 10:40:10.533
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-18 10:41:58.318
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-18 10:44:59.017
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-18 10:45:11.652
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+!SESSION 2016-11-21 11:51:52.144 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-21 11:51:56.157
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-21 11:51:56.408
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-21 11:51:56.624
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:00.723
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-21 11:52:06.212
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:12.927
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:12.929
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:12.978
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:12.978
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.195
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.196
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.297
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.298
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.385
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.385
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-21 11:52:13.386
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-21 21:47:46.301
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:11:25.103
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:12:39.374
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:14:56.223
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:24:03.316
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:24:25.037
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:24:46.030
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:33:39.011
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:33:55.404
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:34:08.664
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:35:07.335
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:35:29.608
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:35:46.469
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:36:26.631
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:36:44.448
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-21 23:59:51.947
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-22 00:01:02.603
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-22 00:01:17.805
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-22 00:01:39.675
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-22 00:15:42.762
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2016-11-22 04:03:20.588
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY ccw.core 1 0 2016-11-22 21:21:41.023
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:23:50.958
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:24:15.643
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:25:01.711
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:26:06.893
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:26:22.837
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:26:55.480
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:27:04.335
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:29:55.967
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:30:57.445
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:31:12.655
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:31:21.160
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:32:27.760
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:32:46.691
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:37:33.945
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:41:15.179
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:44:22.923
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:44:30.166
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:45:00.257
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:45:14.431
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BranchingDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:51:04.593
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:51:36.942
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:52:20.523
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:53:33.159
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:54:41.116
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:55:01.971
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:55:43.964
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:56:18.218
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 21:56:47.853
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key SwitchCaseDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:03:19.171
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:04:42.371
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:05:00.975
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:05:18.089
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:05:24.398
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:08:50.672
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:09:22.927
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:09:34.197
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:09:52.548
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ForLoopDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:13:24.439
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:13:43.024
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:14:46.005
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:14:59.222
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:17:23.005
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:17:44.702
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key WhileDemo
+
+!ENTRY ccw.core 1 0 2016-11-22 22:22:30.909
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:23:41.575
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:24:43.635
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:26:10.630
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:27:14.810
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:28:59.632
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:29:12.699
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:38:17.920
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BreakAndContinue
+
+!ENTRY ccw.core 1 0 2016-11-22 22:42:20.323
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 22:42:43.722
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 22:44:18.218
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 22:44:31.739
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 22:45:13.295
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 22:48:43.059
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 23:04:27.800
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+
+!ENTRY ccw.core 1 0 2016-11-22 23:04:42.736
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ShortHandIf
+!SESSION 2016-11-24 12:49:26.152 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-24 12:55:21.369
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:21.605
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:21.815
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:24.973
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-24 12:55:29.311
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.052
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.053
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.088
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.089
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.232
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.232
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.313
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.313
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.397
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.397
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-24 12:55:34.397
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-24 21:41:08.164
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:41:38.653
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:45:36.514
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:47:23.807
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:49:11.709
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:50:05.007
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:50:38.073
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 21:51:07.376
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key ClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:16:04.343
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:16:39.854
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:17:16.559
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:17:51.237
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:18:48.660
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:19:02.983
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:19:11.369
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:21:13.651
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:21:45.386
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY org.eclipse.recommenders.rcp 4 5 2016-11-24 22:32:42.855
+!MESSAGE Failed to resolve selection in ‘=ThirdSession/src<{BufferedReaderDemo.java’ at offset 204
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY ccw.core 1 0 2016-11-24 22:35:47.259
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BufferedReaderDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:37:50.796
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BufferedReaderDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:45:25.088
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:46:40.384
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:47:03.753
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:51:06.234
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:52:23.936
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:58:17.574
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 22:58:49.594
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:02:40.218
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:03:54.846
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:07:58.558
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:08:20.597
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:11:39.241
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key StaticVariableDemo
+
+!ENTRY ccw.core 1 0 2016-11-24 23:15:00.928
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key MethodDemo
+
+!ENTRY org.eclipse.recommenders.rcp 2 15 2016-11-25 02:29:14.356
+!MESSAGE Failed to parse news feed
+!STACK 0
+java.net.UnknownHostException: www.codetrails.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY ccw.core 1 0 2016-11-26 10:52:35.624
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-26 11:01:33.153
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-26 15:10:23.756
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-26 15:11:12.866
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-26 21:13:08.882
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key BinaryTree
+
+!ENTRY ccw.core 1 0 2016-11-28 21:25:20.869
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY org.eclipse.ui 4 4 2016-11-28 21:27:53.058
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1270)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4211)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4207)
+	at org.eclipse.debug.internal.ui.views.ViewContextService$ViewBinding.activated(ViewContextService.java:496)
+	at org.eclipse.debug.internal.ui.views.ViewContextService$DebugContextViewBindings.doActivation(ViewContextService.java:265)
+	at org.eclipse.debug.internal.ui.views.ViewContextService$DebugContextViewBindings.activateChain(ViewContextService.java:237)
+	at org.eclipse.debug.internal.ui.views.ViewContextService.activateChain(ViewContextService.java:1009)
+	at org.eclipse.debug.internal.ui.views.ViewContextService.contextActivated(ViewContextService.java:830)
+	at org.eclipse.debug.internal.ui.views.ViewContextService.contextManagerChanged(ViewContextService.java:1081)
+	at org.eclipse.core.commands.contexts.ContextManager.fireContextManagerChanged(ContextManager.java:162)
+	at org.eclipse.core.commands.contexts.ContextManager.setActiveContextIds(ContextManager.java:293)
+	at org.eclipse.e4.ui.services.ContextServiceAddon$1.changed(ContextServiceAddon.java:46)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:341)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:356)
+	at org.eclipse.e4.ui.internal.services.ContextContextService.activateContext(ContextContextService.java:56)
+	at org.eclipse.ui.internal.contexts.ContextService.activateContext(ContextService.java:170)
+	at org.eclipse.ui.internal.contexts.ContextService.activateContext(ContextService.java:102)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$4.runInUIThread(PerspectiveManager.java:514)
+	at org.eclipse.debug.internal.ui.launchConfigurations.PerspectiveManager$MyUIJob$1.run(PerspectiveManager.java:229)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4024)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3700)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY ccw.core 1 0 2016-11-28 21:29:58.639
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:32:28.567
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:35:53.690
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:36:33.781
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:39:26.542
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:41:50.518
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:42:26.991
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:50:10.285
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:50:31.589
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 21:50:39.123
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InheritanceAndCompositionDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:00:54.605
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:03:10.300
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:17:40.654
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:18:10.227
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:19:48.339
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:20:32.310
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:20:46.247
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:24:08.957
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:24:38.011
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:26:57.929
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key OverridingDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:32:22.158
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key FinalKeywordDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:34:22.588
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key FinalKeywordDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:35:28.131
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key FinalKeywordDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:35:53.032
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key FinalKeywordDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:44:53.221
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key CommandLineDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:45:48.748
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key CommandLineDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 22:56:55.456
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key PackageDemoCaller
+
+!ENTRY ccw.core 1 0 2016-11-28 22:57:45.441
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key PackageDemoCaller
+
+!ENTRY ccw.core 1 0 2016-11-28 22:58:13.039
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key PackageDemoCaller
+
+!ENTRY ccw.core 1 0 2016-11-28 22:58:34.968
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key PackageDemoCaller
+
+!ENTRY ccw.core 1 0 2016-11-28 23:03:05.121
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AccessSpecifierDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 23:03:15.724
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AccessSpecifierDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 23:03:25.686
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AccessSpecifierDemo
+
+!ENTRY ccw.core 1 0 2016-11-28 23:05:22.037
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AccessSpecifierDemo
+!SESSION 2016-11-29 13:37:24.223 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ssm2349/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-29 13:37:35.242
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:35.614
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:36.120
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.0"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:46.406
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-29 13:37:53.623
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.539
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl/ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.541
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.583
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world/hello-world.clj
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.584
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.870
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink/script.clj
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.870
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.974
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager/ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2016-11-29 13:37:59.974
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2016-11-29 13:38:00.079
+!MESSAGE Loaded User Script /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom/ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2016-11-29 13:38:00.079
+!MESSAGE Loaded User Plugin: /Users/ssm2349/Documents/Eclipse.app/Contents/Eclipse/plugins/ccw.core_0.34.0.STABLE001/ccw-plugins/ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2016-11-29 13:38:00.080
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2016-11-29 21:18:29.547
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AbstractClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-29 21:20:07.740
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key AbstractClassDemo
+
+!ENTRY ccw.core 1 0 2016-11-29 21:44:12.655
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InterfaceDemo
+
+!ENTRY org.eclipse.core.resources 4 376 2016-11-29 21:48:23.612
+!MESSAGE Marker id 3364 not found.
+
+!ENTRY ccw.core 1 0 2016-11-29 21:54:35.296
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InterfaceAndAbstractClasses
+
+!ENTRY ccw.core 1 0 2016-11-29 21:54:46.359
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key InterfaceAndAbstractClasses

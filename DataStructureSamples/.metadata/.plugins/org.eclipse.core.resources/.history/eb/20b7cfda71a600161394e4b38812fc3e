@@ -1,0 +1,31 @@
+package quickSort;
+
+public class BinaryTree {
+	TreeNode root;
+
+	public BinaryTree(int root) {
+		super();
+		this.root = new TreeNode(root);
+	}
+
+	public void add(int element) {
+		if (root == null) {
+			root = new TreeNode(element);
+		} else
+			addElement(element, root);
+	}
+
+	private void addElement(int element, TreeNode node) {
+		if (node.getData() > element) {
+			if (node.hasLeft())
+				addElement(element, node.getLeftChild());
+			else
+				node.setLeftChild(new TreeNode(element));
+
+		} else if (node.hasRight())
+			addElement(element, node.getRightChild());
+		else
+			node.setLeftChild(new TreeNode(element));
+
+	}
+}

@@ -1,0 +1,114 @@
+package quickSort;
+
+public class BinaryTree {
+	TreeNode root;
+
+	public BinaryTree(int root) {
+		super();
+		this.root = new TreeNode(root);
+	}
+
+	public void add(int element) {
+		if (root == null) {
+			root = new TreeNode(element);
+		} else
+			addElement(element, root);
+	}
+
+	private void addElement(int element, TreeNode node) {
+		if (node.getData() > element) {
+			if (node.hasLeft())
+				addElement(element, node.getLeftChild());
+			else
+				node.setLeftChild(new TreeNode(element));
+
+		} else if (node.hasRight())
+			addElement(element, node.getRightChild());
+		else
+			node.setRightChild(new TreeNode(element));
+	}
+
+}
+
+class Queue<T> {
+	Element head, tail;
+
+	class Element<T> {
+		T data;
+		Element<T> next;
+		public Element(T data) {
+			 this.data=data;
+		}
+	}
+
+	public void enQueue(T data) {
+		if (head == null){
+			head = new Element(data);
+			tail=head;
+		}else{
+			tail.next=new Element(data);
+			tail=tail.next;
+		}
+	}
+
+	public T deQueue() {
+		T t;
+		return t;
+	}
+}
+
+class TreeNode {
+	private int data;
+
+	public TreeNode(int data) {
+		super();
+		this.data = data;
+	}
+
+	private TreeNode leftChild, rightChild;
+
+	public TreeNode(int data, TreeNode leftChild, TreeNode rightChild) {
+		super();
+		this.data = data;
+		this.leftChild = leftChild;
+		this.rightChild = rightChild;
+	}
+
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
+		this.data = data;
+	}
+
+	public TreeNode getLeftChild() {
+		return leftChild;
+	}
+
+	public void setLeftChild(TreeNode leftChild) {
+		this.leftChild = leftChild;
+	}
+
+	public TreeNode getRightChild() {
+		return rightChild;
+	}
+
+	public void setRightChild(TreeNode rightChild) {
+		this.rightChild = rightChild;
+	}
+
+	public boolean hasLeft() {
+		if (this.leftChild == null)
+			return false;
+		else
+			return true;
+	}
+
+	public boolean hasRight() {
+		if (this.rightChild == null)
+			return false;
+		else
+			return true;
+	}
+}

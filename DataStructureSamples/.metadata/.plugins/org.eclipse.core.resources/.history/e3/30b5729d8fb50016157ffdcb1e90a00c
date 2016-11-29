@@ -1,0 +1,5 @@
+package myPackage; // Declaration of package
+
+public class packageDemo {
+
+}

@@ -1,0 +1,12 @@
+
+public class OverridingDemo {
+	
+}
+
+class MyVehicle{
+	String engine;
+}
+
+class MyCar extends MyVehicle{
+	
+}

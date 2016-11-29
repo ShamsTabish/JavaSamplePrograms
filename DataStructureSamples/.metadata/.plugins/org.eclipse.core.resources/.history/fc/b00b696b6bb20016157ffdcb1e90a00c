@@ -1,0 +1,42 @@
+
+public class MethodDemo {
+	public static void main(String[] args) {
+		Methods methodDemo=new Methods();
+		methodDemo.print();
+		int result=methodDemo.add(23, 45);
+		System.out.println(result);
+		
+		//---
+		Student empty=new Student();
+		System.out.println(empty);
+		
+		Student rajesh=new Student("Rajesh","IT");
+		System.out.println(rajesh);
+	}
+}
+class Methods{
+	public void print(){
+		System.out.println("Hello");
+	}
+	
+	int add(int no1, int no2){
+		return no1+no2;
+	}
+}
+
+class Student{
+	String name;
+	String course;
+	Student(){
+		name="";
+		course="";
+	}
+	Student(String name,String c){
+		name=name;
+		course=c;
+	}
+	@Override
+	public String toString() {
+		return "Name: "+name+ "\nCourse"+course+"\n\n";
+	}
+}

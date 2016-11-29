@@ -1,0 +1,11 @@
+package looping;
+
+public class ForLoopDemo {
+	public static void main(String[] args) {
+		     //1       //2    // --
+		for (int x = 0; x < 1; x++)
+			System.out.println("X=" + x);
+		System.out.println("--End of Program--");
+	}
+	
+}

@@ -1,0 +1,12 @@
+
+public class InheritanceAndCompositionDemo {
+
+}
+
+class Vehicle{
+  	 Engine engine;//Vehicle is composed of Engine
+}
+
+class Engine{
+	
+}

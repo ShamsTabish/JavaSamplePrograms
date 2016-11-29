@@ -1,0 +1,26 @@
+
+public class ClassDemo {
+	
+	public static void main(String[] args) {
+		Car maruti=new Car();
+		maruti.move("Banglore");
+	}
+}
+
+class Car{
+	String color;
+	int numberOfDoors;
+	String engineType=" autometic engine";
+	String modelNumber;
+	Car(){
+		color="White";
+		
+	}
+	{
+		System.out.println("Helloo..");
+	}
+	
+	void move(String destination){
+		System.out.println("Driving to "+destination+" using "+engineType);
+	}
+}

@@ -1,0 +1,18 @@
+
+public class ClassDemo {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Car{
+	String color;
+	int numberOfDoors;
+	String engineType;
+	String modelNumber;
+	
+	
+	void move(String destination){
+		System.out.println("Driving to "+destination+" using "+engineType);
+	}
+}

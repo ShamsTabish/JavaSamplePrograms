@@ -1,0 +1,19 @@
+package quickSort;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyStack {
+	List<String> stack = new ArrayList<String>();
+	int size=5;
+	void push(String e) {
+		if(size==stack.size())
+			throw new IllegalStateException();
+		else
+			stack.add(e);
+	}
+
+	String pop() {
+
+	}
+}

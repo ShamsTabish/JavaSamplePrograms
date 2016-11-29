@@ -1,0 +1,16 @@
+
+public class OverridingDemo {
+
+	public static void main(String[] args) {
+		Student 
+		System.out.println();
+	}
+
+}
+
+class Student{
+	void attemptsExam(String pen){
+		System.out.println("Using "+pen +" to write on the papers");
+	}
+	
+}

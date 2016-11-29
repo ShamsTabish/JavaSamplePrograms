@@ -1,0 +1,17 @@
+
+public class StaticVariableDemo {
+	public static void main(String[] args) {
+		BankAccount rajeshAccount=new BankAccount();
+		rajeshAccount.deposit(500);
+	}
+}
+
+class BankAccount {
+	float accountBalance;
+	float bankBalance;
+
+	void deposit(float amount) {
+		accountBalance += amount;
+	}
+
+}

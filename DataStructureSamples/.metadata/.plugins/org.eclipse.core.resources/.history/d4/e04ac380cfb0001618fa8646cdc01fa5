@@ -1,0 +1,19 @@
+package branching;
+
+public class SwitchCaseDemo {
+	public static void main(String[] args) {
+		String today="";
+		
+		switch(today){
+		case "Monday":
+			break;
+		case "Wednesday":
+			break;
+		case "Thursday":
+			break;
+		default:
+			break;
+			
+		};
+	}
+}

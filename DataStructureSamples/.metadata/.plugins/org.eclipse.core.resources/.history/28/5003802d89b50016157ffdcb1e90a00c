@@ -1,0 +1,22 @@
+
+public class OverridingDemo {
+
+	public static void main(String[] args) {
+		Student alex=new Student();
+		alex.attemptsExam("Fountain pen");
+		System.out.println("================");
+		alex.attemptsExam("Ball Pen", "Scientific calculator");
+		alex.attemptExam(45);
+	}
+
+}
+
+class Student{
+	void attemptsExam(String pen){
+		System.out.println("Using "+pen +" to write on the papers");
+	}
+	void attemptsExam(String pen, String calculator){
+		System.out.println("Using "+pen +" to write on the papers");
+		System.out.println("Using "+calculator+" for Solving problems");
+	}
+}
